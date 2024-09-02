@@ -15,7 +15,7 @@
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
-- **State Management**: Redux or MobX
+- **State Management**: Redux 
 
 ## Installation
 
@@ -37,7 +37,7 @@
 
 ## Usage
 
-- Open `http://localhost:3000` in your browser to view the application.
+- Open `http://localhost:5173` in your browser to view the application.
 - Use the navigation to browse courses, view details, and access the student dashboard.
 
 ## License
