@@ -24,8 +24,8 @@ const CourseList = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredCourses.map((course) => (
           <Link to={`/courses/${course.id}`} key={course.id}>
-            <div className="bg-white p-4 rounded shadow hover:shadow-md transition duration-300">
-              <img src={course.thumbnail} alt={course.name} className="w-full h-32 object-cover rounded" />
+            <div className="bg-white p-4 rounded shadow hover:shadow-md transition duration-300 overflow-hidden">
+              <img src={course.thumbnail} alt={course.name} className="w-full h-40 object-cover object-center rounded" />
               <h2 className="text-xl font-bold mt-2">{course.name}</h2>
               <p className="text-gray-700">Instructor: {course.instructor}</p>
               <p className="text-gray-500">{course.description.substring(0, 60)}...</p>
