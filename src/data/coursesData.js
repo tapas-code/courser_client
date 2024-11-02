@@ -5,7 +5,7 @@ const coursesData = [
     instructor: 'John Doe',
     description: 'Learn the basics of React Native development and build your first mobile app.',
     enrollmentStatus: 'Open',
-    thumbnail: 'https://www.visual-craft.com/strapi/uploads/React_Native_2_c5ab49be9b.png', // Placeholder image
+    thumbnail: 'https://blog.castle.io/content/images/2021/03/blog-thumb-1.png', // Placeholder image
     duration: '8 weeks',
     schedule: 'Tuesdays and Thursdays, 6:00 PM - 8:00 PM',
     location: 'Online',
@@ -53,7 +53,7 @@ const coursesData = [
     instructor: 'Michael Brown',
     description: 'Learn full stack web development with modern technologies.',
     enrollmentStatus: 'In Progress',
-    thumbnail: 'https://miro.medium.com/v2/resize:fit:800/0*XH3rLskyOsCqVV-j.jpg',
+    thumbnail: 'https://dm1wsvzj3kcu0.cloudfront.net/wp-content/uploads/2023/06/full-stack-devlopment.jpg',
     duration: '12 weeks',
     schedule: 'Fridays, 4:00 PM - 6:00 PM',
     location: 'Online',

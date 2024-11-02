@@ -26,7 +26,7 @@ const StudentDashboard = () => {
             <img
               src={course.thumbnail}
               alt={course.name}
-              className="w-full h-32 object-cover rounded-md mb-4"
+              className="w-full h-40 object-cover rounded-md mb-4"
             />
             <h2 className="text-lg font-bold">{course.name}</h2>
             <p className="text-sm text-gray-500">Instructor: {course.instructor}</p>
